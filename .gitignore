@@ -7,3 +7,5 @@ dist
 coverage
 apps/api/src/generated
 *.tsbuildinfo
+.vercel
+.env*

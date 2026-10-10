@@ -7,27 +7,57 @@ const GITHUB = 'https://github.com/Silver2er0'
 
 export const profile = {
   name: 'Ahmad Allahham',
-  title: 'Full-Stack Developer',
-  tagline: 'I build and ship full-stack web apps with React, NestJS and Next.js, from database schema to production deploy.',
+  title: 'Software Engineer',
+  tagline: 'I build web apps and AI-powered products, from React frontends and Node.js backends to AI agent pipelines and on-device inference.',
+  location: 'Dubai, UAE',
   openToWork: true,
   about: [
-    'I am a full-stack developer who likes owning a feature end to end: modelling the data, designing the API, building the interface and putting it live with CI behind it.',
-    'The four projects below are deployed, tested and documented, and each one uses a different technique: payments, WebSockets, server-side rendering and retrieval-augmented generation.',
+    'Software engineer with 3+ years of experience shipping web and mobile applications and AI-powered solutions. I have led a team of 15 engineers, delivered projects on time, and bridged frontend work with backend services and AI integration.',
+    'At FYI.AI I designed an AI agent pipeline (speech-to-text, LLM, text-to-speech), deployed Dockerized microservices and ran models on NVIDIA Jetson devices. On the side I build and deploy full-stack projects: the four below are live, tested and documented, and each uses a different technique (payments, WebSockets, server-side rendering and retrieval-augmented generation).',
   ],
-  email: '',
-  linkedin: '',
+  email: 'ahmadallaham250@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/ahmad-allahham-ab9635229',
   github: GITHUB,
   cv: '/cv.pdf',
   skills: {
-    Frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vite', 'Zustand', 'TanStack Query'],
-    Backend: ['NestJS', 'Node.js', 'REST', 'WebSockets (Socket.IO)', 'Server-Sent Events', 'Prisma', 'JWT auth'],
-    Data: ['PostgreSQL', 'pgvector', 'SQL'],
-    'Tools & delivery': ['Git & GitHub Actions', 'Docker', 'Vercel', 'Render', 'Vitest', 'Stripe'],
+    Frontend: ['React.js', 'Next.js', 'JavaScript', 'TypeScript', 'HTML5 / CSS3 / SCSS', 'Tailwind CSS', 'Redux', 'Context API', 'QML'],
+    Backend: ['Node.js', 'Express', 'NestJS', 'REST APIs', 'WebSockets', 'Python', 'FastAPI', 'Django', 'Java', 'C++', 'C#', 'PHP'],
+    'AI & data': ['LLM integration', 'AI agents (STT / LLM / TTS)', 'RAG & pgvector', 'NLP', 'CNN', 'OpenCV', 'Pandas', 'NVIDIA Jetson'],
+    'Databases & tools': ['PostgreSQL', 'MySQL', 'Firebase', 'Prisma', 'Docker', 'Microservices', 'GitHub Actions', 'Postman', 'Vercel / Render'],
   } as Record<string, string[]>,
   /** Shown as cards under "More on GitHub"; every other public repo is grouped into small chips. */
   notableRepos: ['MLD-B2B', 'Ecommerce-Shop', 'Food-store', 'dia-finetuning'],
-  experience: [] as { role: string; company: string; period: string; points: string[] }[],
-  education: [] as { degree: string; school: string; period: string }[],
+  experience: [
+    {
+      role: 'Software Engineer',
+      company: 'FYI.AI',
+      period: 'Mar 2024 - Present · Dubai, UAE',
+      points: [
+        'Maintained and enhanced a production application for 18+ months across Java, C++ and Node.js.',
+        'Designed and implemented a complete AI agent pipeline for speech-to-text, LLM integration and text-to-speech with Python and FastAPI.',
+        'Built and deployed AI-driven microservices with Docker, giving a scalable, modular architecture with better performance and reliability.',
+        'Developed Node.js / Express endpoints and microservices for core functionality and cross-service communication.',
+        'Flashed and configured NVIDIA Jetson devices for on-device AI model inference.',
+        'Built and delivered a white-label version of the app for ASU: personalized education with lecture content, AI personas and adaptive learning flows.',
+        'Delivered accessibility enhancements for text and calls, AI-automated reminder calls and real-time chat.',
+      ],
+    },
+    {
+      role: 'Frontend Engineer',
+      company: 'AMMRHA Foundation',
+      period: 'Mar 2022 - Nov 2023 · Damascus, Syria',
+      points: [
+        'Led a technical team of 15 engineers and delivered 10+ projects with a 100% on-time quality record.',
+        'Worked with senior leadership to align product releases with company objectives (20% improvement in organizational alignment).',
+        'Introduced a post-launch evaluation process that cut compliance issues by 20% and saved about 10 hours per project.',
+        'Built and shipped web applications with React.js, Node.js, Tailwind CSS and MySQL.',
+        'Owned the full frontend lifecycle: component architecture, state management, API integration and testing.',
+      ],
+    },
+  ] as { role: string; company: string; period: string; points: string[] }[],
+  education: [{ degree: 'B.Sc. Information Technology in Artificial Intelligence', school: 'ASPU, Damascus, Syria', period: 'Sep 2018 - May 2023' }],
+  certifications: ['Exploratory Data Analysis for Machine Learning (May 2023)', 'World Robot Olympiad Participant (Aug 2019)'],
+  languages: 'English (fluent), Arabic (native)',
 }
 
 export type Project = {
@@ -69,6 +99,7 @@ export const projects: Project[] = [
     highlights: ['Next.js App Router with Server Components and Server Actions', 'Drag and drop with optimistic updates and fractional ordering', 'Own session layer: bcrypt + signed httpOnly JWT cookie'],
     stack: ['Next.js', 'React', 'TypeScript', 'Prisma', 'PostgreSQL', 'Tailwind'],
     image: flowboard,
+    live: 'https://flowboard-app-eight.vercel.app',
   },
   {
     name: 'DocMind',

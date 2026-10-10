@@ -24,7 +24,9 @@ export default function App() {
             </p>
           )}
           <h1 className="text-5xl font-bold tracking-tight sm:text-6xl">{profile.name}</h1>
-          <p className="mt-2 text-2xl font-semibold text-indigo-600 dark:text-indigo-400">{profile.title}</p>
+          <p className="mt-2 text-2xl font-semibold text-indigo-600 dark:text-indigo-400">
+            {profile.title} <span className="text-base font-normal text-slate-500">· {profile.location}</span>
+          </p>
           <p className="mt-5 max-w-2xl text-lg text-slate-600 dark:text-slate-400">{profile.tagline}</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="#projects" className="btn btn-primary">
@@ -68,8 +70,7 @@ export default function App() {
           <Projects />
         </Section>
 
-        {profile.experience.length > 0 && (
-          <Section id="experience" title="Experience">
+        <Section id="experience" title="Experience">
             <ol className="space-y-8 border-l border-slate-200 pl-6 dark:border-slate-800">
               {profile.experience.map((e) => (
                 <li key={e.role + e.company} className="relative">
@@ -86,18 +87,28 @@ export default function App() {
                 </li>
               ))}
             </ol>
-            {profile.education.length > 0 && (
-              <div className="mt-12">
-                <h3 className="mb-4 text-lg font-semibold">Education</h3>
+            <div className="mt-12 space-y-6 text-sm text-slate-600 dark:text-slate-400">
+              <div>
+                <h3 className="mb-2 text-lg font-semibold text-slate-900 dark:text-slate-100">Education</h3>
                 {profile.education.map((e) => (
-                  <p key={e.degree} className="text-sm text-slate-600 dark:text-slate-400">
+                  <p key={e.degree}>
                     <b className="text-slate-900 dark:text-slate-100">{e.degree}</b> · {e.school} · {e.period}
                   </p>
                 ))}
               </div>
-            )}
+              <div>
+                <h3 className="mb-2 text-lg font-semibold text-slate-900 dark:text-slate-100">Certifications</h3>
+                <ul className="list-disc pl-5">
+                  {profile.certifications.map((c) => (
+                    <li key={c}>{c}</li>
+                  ))}
+                </ul>
+              </div>
+              <p>
+                <b className="text-slate-900 dark:text-slate-100">Languages:</b> {profile.languages}
+              </p>
+            </div>
           </Section>
-        )}
 
         <Section id="github" title="More on GitHub">
           <GithubRepos />

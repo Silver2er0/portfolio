@@ -19,7 +19,7 @@ export function Header() {
           {profile.name}
         </a>
         <nav className="ml-auto hidden gap-5 text-sm font-medium text-slate-600 sm:flex dark:text-slate-300">
-          {LINKS.filter((l) => l !== 'experience' || profile.experience.length).map((l) => (
+          {LINKS.map((l) => (
             <a key={l} href={`#${l}`} className="capitalize hover:text-indigo-600 dark:hover:text-indigo-400">
               {l === 'github' ? 'GitHub' : l}
             </a>

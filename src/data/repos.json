@@ -1,5 +1,13 @@
 [
   {
+    "name": "portfolio",
+    "description": "Personal portfolio: React, Vite, Tailwind",
+    "language": "TypeScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/portfolio",
+    "pushedAt": "2026-10-10T20:52:46Z"
+  },
+  {
     "name": "pulse-chat",
     "description": "Real-time chat: NestJS + Socket.IO + React + PostgreSQL (presence, typing, read receipts)",
     "language": "TypeScript",
