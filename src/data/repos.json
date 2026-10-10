@@ -1,0 +1,130 @@
+[
+  {
+    "name": "pulse-chat",
+    "description": "Real-time chat: NestJS + Socket.IO + React + PostgreSQL (presence, typing, read receipts)",
+    "language": "TypeScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/pulse-chat",
+    "pushedAt": "2026-10-10T20:50:34Z"
+  },
+  {
+    "name": "docmind",
+    "description": "Chat with your PDFs: RAG with NestJS, PostgreSQL pgvector, Gemini and Server-Sent Events streaming",
+    "language": "TypeScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/docmind",
+    "pushedAt": "2026-10-10T20:50:28Z"
+  },
+  {
+    "name": "flowboard",
+    "description": "Kanban job application tracker: Next.js App Router (SSR), Server Actions, Prisma, PostgreSQL",
+    "language": "TypeScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/flowboard",
+    "pushedAt": "2026-10-10T20:37:00Z"
+  },
+  {
+    "name": "bazaar-marketplace",
+    "description": "Full-stack online marketplace: React, NestJS, PostgreSQL, Stripe",
+    "language": "TypeScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/bazaar-marketplace",
+    "pushedAt": "2026-10-10T20:11:49Z"
+  },
+  {
+    "name": "dia-finetuning",
+    "description": null,
+    "language": "Dockerfile",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/dia-finetuning",
+    "pushedAt": "2025-05-27T12:59:11Z"
+  },
+  {
+    "name": "dev",
+    "description": null,
+    "language": null,
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/dev",
+    "pushedAt": "2025-05-02T07:47:54Z"
+  },
+  {
+    "name": "The-Higher-Lower-game",
+    "description": "the Higher Lower game using python",
+    "language": "Python",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/The-Higher-Lower-game",
+    "pushedAt": "2024-03-24T16:06:22Z"
+  },
+  {
+    "name": "snak-game",
+    "description": "snak game using python",
+    "language": "Python",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/snak-game",
+    "pushedAt": "2024-03-24T16:05:01Z"
+  },
+  {
+    "name": "quizzler-app-game",
+    "description": "simple quizzler app using python",
+    "language": "Python",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/quizzler-app-game",
+    "pushedAt": "2024-03-24T16:03:14Z"
+  },
+  {
+    "name": "pong-game",
+    "description": "simple pong game using python",
+    "language": "Python",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/pong-game",
+    "pushedAt": "2024-03-24T16:00:43Z"
+  },
+  {
+    "name": "keeperapp",
+    "description": "simple keeperapp ",
+    "language": "JavaScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/keeperapp",
+    "pushedAt": "2024-03-24T15:58:58Z"
+  },
+  {
+    "name": "todolist",
+    "description": "simple todolist ",
+    "language": "JavaScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/todolist",
+    "pushedAt": "2024-03-24T15:57:41Z"
+  },
+  {
+    "name": "MLD-B2B",
+    "description": "A React JS Startup and small business website template designed using React and Tailwind CSS",
+    "language": "JavaScript",
+    "stars": 3,
+    "url": "https://github.com/Silver2er0/MLD-B2B",
+    "pushedAt": "2024-03-24T15:47:17Z"
+  },
+  {
+    "name": "Food-store",
+    "description": "Welcome to FreshFoods Online, where convenience meets quality in the world of online grocery shopping. We are your premier destination for all your food needs, offering a wide selection of fresh produce, pantry staples, artisanal goods, and much more. With a user-friendly interface and a commitment to exceptional customer service, FreshFoods Online",
+    "language": "JavaScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/Food-store",
+    "pushedAt": "2024-03-24T15:46:02Z"
+  },
+  {
+    "name": "Ecommerce-Shop",
+    "description": "We are dedicated to providing you with a seamless online shopping experience. Our mission is to offer a wide selection of high-quality products at competitive prices, all conveniently accessible from the comfort of your own home. Whether you're looking for the latest fashion trends, must-have electronics, or unique gifts, we've got you covered.",
+    "language": "JavaScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/Ecommerce-Shop",
+    "pushedAt": "2024-03-24T15:43:20Z"
+  },
+  {
+    "name": "Explore-Dubai",
+    "description": null,
+    "language": "JavaScript",
+    "stars": 0,
+    "url": "https://github.com/Silver2er0/Explore-Dubai",
+    "pushedAt": "2024-03-24T15:32:29Z"
+  }
+]
