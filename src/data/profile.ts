@@ -90,6 +90,7 @@ export const projects: Project[] = [
     highlights: ['NestJS Socket.IO gateway authenticated with the same JWT', 'Optimistic UI confirmed by server acknowledgements', 'e2e test with two real socket clients'],
     stack: ['React', 'NestJS', 'Socket.IO', 'PostgreSQL', 'Zustand'],
     image: pulse,
+    live: 'https://pulse-chat-app-sigma.vercel.app',
   },
   {
     name: 'Flowboard',
@@ -109,5 +110,6 @@ export const projects: Project[] = [
     highlights: ['Chunking, embeddings and cosine search with pgvector', 'Answers streamed to the browser over Server-Sent Events', 'Rate limits, per-visitor isolation and a daily AI budget'],
     stack: ['NestJS', 'React', 'PostgreSQL', 'pgvector', 'Gemini', 'SSE'],
     image: docmind,
+    live: 'https://docmind-app-gamma.vercel.app',
   },
 ]
